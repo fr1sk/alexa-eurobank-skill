@@ -1,6 +1,6 @@
 # Alexa eurobank skill
 ### Eurobank Voice Assistant 
-Eurobank assistant helps you manage your account hands free :) We made skill at Eurobank hackathon which was held in Athens from 17 to 19 of March. We also won second place out of 38 teams that competed.
+Eurobank assistant helps you manage your account hands free :) We made skill at Eurobank hackathon which was held in Athens from 17 to 19 of March. We also won **second place** out of 38 teams that competed.
 
 
 
