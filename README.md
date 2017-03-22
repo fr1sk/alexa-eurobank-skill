@@ -1,10 +1,25 @@
 # Alexa eurobank skill
+### Eurobank Voice Assistant
 
-### EuroBank skill made for Amazon Alexa (Echo) on EuroBank hackathon (17.03.2017 - 19.03.2017) in Athens, Greece. We were second, out of 38 teams.
+
 
 #### Made by HackingSquad:
 - Zeljko Sevic
 - Luka Zivanovic
 - Vladimir Simonovski
 - Marko Jovanovic
+
+#### Demo
+[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://youtu.be/K-SEtwcHXHE)
+
+
+#### Features we've implemented
+- Eurobank API integration
+- Authorization
+- Number of unread messages
+- Nearest ATM, location and distance
+- Currency exchange
+- Account balance
+- Making payments
+            
 
