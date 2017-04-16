@@ -13,6 +13,8 @@ Eurobank assistant helps you manage your account hands free :) We made skill at 
 #### Demo
 [![ScreenShot](https://raw.github.com/fr1sk/alexa-eurobank-skill/master/demo/Screenshot%20from%202017-03-22%2012-04-59.png)](https://youtu.be/K-SEtwcHXHE)
 
+### Presentation
+Navigate to `presentation/` folder and open `index.html` file.
 
 #### Features we've implemented
 - Eurobank API integration

@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<!--<img class="hsImg" src="./assets/hal.png">-->
+					<h2>Eurobank Voice Assistant</h2>
+					<q>powered by: Hacking Squad</q>
+				</section>
+				<section>
+					<h3>Banks and banking services are complicated</h3>
+				</section>
+				<section>
+					<h3> Time = Money </h3>
+					<!--
+					<ul>
+						<li class="fragment" data-fragment-index="1">Time = money</li>
+						<li class="fragment" data-fragment-index="2">adsadsa</li>
+					</ul>
+					-->
+				</section>
+				<section>
+					<ul>
+						<li class="fragment" data-fragment-index="1">Waiting in line</li>
+						<li class="fragment" data-fragment-index="2">Paying bills</li>
+						<li class="fragment" data-fragment-index="3">Searching for ATM</li>
+					</ul>
+				</section>
+				<section>
+					<h3>You need an assistant</h3>
+					<img src="./assets/uncle_sam.jpg">
+				</section>
+				<section>
+					<img class="hsImg" src="./assets/alexa.png">
+				</section>
+				<section>
+					<h3>How can alexa help you?</h3>
+				</section>
+				<section>
+					<ul>
+						<li class="fragment" data-fragment-index="1">Easier money transfers</li>
+						<li class="fragment" data-fragment-index="2">Replace and integrate with other services</li>
+						<li class="fragment" data-fragment-index="3">Personalization</li>
+					</ul>
+				</section>
+				<section>
+					<h3>Will people use it?</h3>
+				</section>
+				<section>
+					<h3>Let's talk numbers</h3>
+				</section>
+				<section>
+					<img class="hsImg" src="./assets/alexa_use..png" alt="">
+				</section>
+				<section>
+					<img src="./assets/growth.png" alt="" class="hsImg">
+				</section>
+				<section>
+					<q>Amazon likely sold over 9 million Echo devices worldwide during this holiday season. Combining that with November’s report, it’s also likely that there are currently over 14 million Echo devices worldwide.</q>
+					<p>source: http://chatbotsmagazine.com</p>
+				</section>
+				<section>
+					<h3>Features we've implemented</h3>
+				</section>
+				<section>
+					<ul>
+						<li>Eurobank API integration</li>
+						<li>Authorization</li>
+						<li>Number of unread messages</li>
+						<li>Nearest ATM, location and distance</li>
+						<li>Currency exchange</li>
+						<li>Account balance</li>
+						<li>Making payments</li>
+					</ul>
+				</section>
+				<section>
+					<h1>DEMO</h1>
+				</section>
+				<section>
+					<h1>Questions?</h1>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
